@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="18dp"
+    android:padding="16dp"
     tools:context=".MainActivity">
 
     <TextView
@@ -75,7 +75,7 @@
         android:id="@+id/multiplyButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="(×)"
+        android:text="(x)"
         android:layout_below="@+id/resultTextView"
         android:layout_marginTop="16dp"
         android:layout_toEndOf="@+id/subtractButton"
@@ -86,7 +86,7 @@
         android:id="@+id/divideButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="(÷)"
+        android:text="(/)"
         android:layout_below="@+id/resultTextView"
         android:layout_marginTop="16dp"
         android:layout_toEndOf="@+id/multiplyButton"
